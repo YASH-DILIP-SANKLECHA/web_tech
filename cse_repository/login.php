@@ -1,4 +1,5 @@
 <?php
+// Start session to keep  login details
 session_start();
 include 'db.php';
 
