@@ -1,15 +1,14 @@
 -- ============================================================
---  CSE Project Repository - Database Setup Script
---  Run this in phpMyAdmin or MySQL command line
+--  CSE Project Repository - Database
 -- ============================================================
 
--- Step 1: Create the database
+-- creating  database
 CREATE DATABASE IF NOT EXISTS cse_repository;
 
--- Step 2: Select the database
+-- Select the database
 USE cse_repository;
 
--- Step 3: Create the projects table
+-- creating the projects table
 CREATE TABLE IF NOT EXISTS projects (
     id          INT AUTO_INCREMENT PRIMARY KEY,   -- Unique ID for each project
     title       VARCHAR(255)  NOT NULL,           -- Project title
@@ -22,7 +21,7 @@ CREATE TABLE IF NOT EXISTS projects (
     created_at  TIMESTAMP     DEFAULT CURRENT_TIMESTAMP  -- Auto timestamp
 );
 
--- Step 4: Insert sample data so the site is not empty on first run
+-- Inserted with sample data so the site is not empty on first run
 INSERT INTO projects (title, student_name, year, category, technology, description, github_link) VALUES
 (
     'Online Voting System',
@@ -70,7 +69,3 @@ INSERT INTO projects (title, student_name, year, category, technology, descripti
     'https://github.com/karan/hospital-booking'
 );
 
--- ============================================================
---  DONE! Your database is ready.
---  Now go to: http://localhost/cse_repository/
--- ============================================================
