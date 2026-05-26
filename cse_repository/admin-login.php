@@ -1,4 +1,5 @@
 <?php
+// Start the session to store admin login information
 session_start();
 include 'db.php';
 
