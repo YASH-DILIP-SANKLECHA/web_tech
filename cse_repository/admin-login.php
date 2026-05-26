@@ -4,7 +4,7 @@ include 'db.php';
 
 $message = "";
 
-// Checking whether login button is clicked
+// Checking if login button is clicked
 if(isset($_POST['login']))
 {
     // Getting entered username safely
@@ -32,7 +32,7 @@ if(isset($_POST['login']))
         $_SESSION['username'] = $user['username'];
         $_SESSION['role'] = 'admin';
 
-        // Redirecting to dashboard page
+        // Redirect to dashboard page
         header("Location: home.php");
         exit();
     }
@@ -72,7 +72,7 @@ if(isset($_POST['login']))
 <div class="form-body">
 
 <?php
-// Showing error if login details are wrong
+// Show error if login details are wrong
 if($message!="")
 {
 echo "<div class='alert alert-error'>$message</div>";
