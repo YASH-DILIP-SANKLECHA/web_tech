@@ -4,7 +4,7 @@
 
 🎯 Overview
 
-CSE Project Repository** is a full-stack web application designed to empower Computer Science Engineering students to showcase their academic and personal projects. The platform provides an intuitive, professional interface for uploading projects, discovering others' work, and managing project details with ease. This project demonstrates industry-standard web development practices including database design, secure form validation, SQL injection prevention, XSS attack prevention, responsive web design, RESTful conventions, and professional code documentation.
+CSE Project Repository is a full-stack web application designed to empower Computer Science Engineering students to showcase their academic and personal projects. The platform provides an intuitive, professional interface for uploading projects, discovering others' work, and managing project details with ease. This project demonstrates industry-standard web development practices including database design, secure form validation, SQL injection prevention, XSS attack prevention, responsive web design, RESTful conventions, and professional code documentation.
 
  🌐 Tech Stack Breakdown
 
