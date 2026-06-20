@@ -217,8 +217,7 @@ Acknowledgements
 
 Contact
 
-CONTRIBUTORS: YASH-DILIP-SANKLECHA  
-              Madansingh7
+CONTRIBUTORS: YASH-DILIP-SANKLECHA , Madansingh7
 GitHub: https://github.com/YASH-DILIP-SANKLECHA
 
 If you'd like further edits (remove emojis, convert tables to plain text, or commit this README to the repo), tell me which and I'll apply them.
